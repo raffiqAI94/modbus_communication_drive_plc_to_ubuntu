@@ -1,0 +1,10 @@
+modbus:
+  port: "/dev/ttyUSB0"
+  baudrate: 9600
+  timeout: 1.0
+  parity: "N"
+
+profibus:
+  device_id: 1
+  poll_rate: 10
+

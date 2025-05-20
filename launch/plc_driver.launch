@@ -1,0 +1,6 @@
+<launch>
+  <node name="plc_driver_node" pkg="plc_driver" type="plc_driver_node" output="screen">
+    <rosparam file="$(find plc_driver)/config/modbus_profibus.yaml" command="load" />
+  </node>
+</launch>
+

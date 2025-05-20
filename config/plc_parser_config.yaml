@@ -1,0 +1,22 @@
+messages:
+  - tag_name: "Block Head_PLC"
+    address: "D0"
+    type: "DWORD"
+    topic_name: "/airs/plc_status"
+    field_name: "header"
+    data_type: "uint64"
+
+  - tag_name: "Block Length_PLC"
+    address: "W4"
+    type: "WORD"
+    topic_name: "/airs/plc_status"
+    field_name: "length"
+    data_type: "uint64"
+
+  - tag_name: "Heart Beat_PLC"
+    address: "W6"
+    type: "WORD"
+    topic_name: "/airs/plc_status"
+    field_name: "heartbeat"
+    data_type: "uint64"
+

@@ -1,0 +1,22 @@
+messages:
+  - tag_name: "Block Head_CPS"
+    address: "D0"
+    type: "DWORD"
+    topic_name: "/aios/cas_communication_status"
+    field_name: "header"
+    data_type: "uint64"
+
+  - tag_name: "Block Length_CPS"
+    address: "W4"
+    type: "WORD"
+    topic_name: "/aios/cas_communication_status"
+    field_name: "length"
+    data_type: "uint64"
+
+  - tag_name: "Heart Beat_CPS"
+    address: "W6"
+    type: "WORD"
+    topic_name: "/aios/cas_communication_status"
+    field_name: "heartbeat"
+    data_type: "uint64"
+

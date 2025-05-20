@@ -1,0 +1,17 @@
+<package format="2">
+  <version>0.1.0</version>
+  <name>plc_driver</name>  <description>PLC Driver bridging MODBUS and PROFIBUS using serial communication</description>
+  <maintainer email="raffiq1994@live.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>yaml-cpp</depend>
+  <depend>dynamic_reconfigure</depend>
+  <depend>libmodbus</depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>
+

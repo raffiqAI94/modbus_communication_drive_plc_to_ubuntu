@@ -1,0 +1,6 @@
+<launch>
+  <node name="plc_parser_node" pkg="plc_message_parser" type="parser_node" output="screen">
+    <rosparam file="$(find plc_message_parser)/config/plc_parser_config.yaml" command="load" />
+  </node>
+</launch>
+
